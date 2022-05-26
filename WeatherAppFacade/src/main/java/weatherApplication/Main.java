@@ -1,6 +1,8 @@
 package weatherApplication;
-
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import java.io.IOException;
 import sendMessage.AppConfig;
+import sendMessage.SendEmail;
 
 public class Main {
 
